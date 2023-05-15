@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+	<form id="registration-form">
+		<div>
+			<label for="name-input">Name:</label>
+			<input type="text" id="name-input" name="name">
+			<div id="name-error" class="error-message"></div>
+		</div>
+		<div>
+			<label for="email-input">Email:</label>
+			<input type="email" id="email-input" name="email">
+			<div id="email-error" class="error-message"></div>
+		</div>
+		<div>
+			<label for="mobile-input">Mobile:</label>
+			<input type="text" id="mobile-input" name="mobile">
+			<div id="mobile-error" class="error-message"></div>
+		</div>
+		<div>
+			<label for="address-input">Address:</label>
+			<textarea id="address-input" name="address"></textarea>
+			<div id="address-error" class="error-message"></div>
+		</div>
+		<div>
+			<label>Gender:</label>
+			<input type="radio" id="male-input" name="gender" value="male">
+			<label for="male-input">Male</label>
+			<input type="radio" id="female-input" name="gender" value="female">
+			<label for="female-input">Female</label>
+			<input type="radio" id="other-input" name="gender" value="other">
+			<label for="other-input">Other</label>
+			<div id="gender-error" class="error-message"></div>
+		</div>
+		<div>
+			<label>Languages:</label>
+			<input type="checkbox" id="HTML-input" name="language" value="HTML">
+			<label for="HTML-input">HTML</label>
+			<input type="checkbox" id="CSS-input" name="language" value="CSS">
+			<label for="CSS-input">CSS</label>
+			<input type="checkbox" id="JS-input" name="language" value="JS">
+			<label for="JS-input">JS</label>
+			<div id="language-error" class="error-message"></div>
+		</div>
+		<div>
+			<label for="interest-select">Area of interest:</label>
+			<select id="interest-select" name="interests" multiple>
+				<option value="">--Select--</option>
+				<option value="Development">Development</option>
+				<option value="Web design">Web design</option>
+				<option value="Android">Android</option>
+			</select>
+			<div id="interest-error" class="error-message"></div>
+		</div>
+		<div>
+			<label for="state-select">State:</label>
+			<select id="state-select" name="state">
+				<option value="">--Select--</option>
+				<option value="TN">TamilNadu</option>
+				<option value="KL">Kerala</option>
+				<option value="KN">Karnataka</option>
+                <option value="MH">Maharashtra</option>
+			</select>
+			<div id="state-error" class="error-message"></div>
+		</div>
+		<button type="submit">Register</button>
+        <div id="success-message1"></div>
+        <div id="error-message1"></div>
+	</form>
+</div>
+	<script src="register.js"></script>
+</body>
+</html>
