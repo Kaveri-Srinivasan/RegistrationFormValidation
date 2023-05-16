@@ -11,7 +11,7 @@
  const stateSelect = document.querySelector('#state-select'); 
  
  // Define the error messages 
-
+ 
  const nameError = document.querySelector('#name-error'); 
  const emailError = document.querySelector('#email-error'); 
  const mobileError = document.querySelector('#mobile-error'); 
