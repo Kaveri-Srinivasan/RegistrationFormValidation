@@ -1,3 +1,4 @@
+ //Javascript form validation
  // Define the form elements 
 
  const form = document.querySelector('#registration-form'); 
