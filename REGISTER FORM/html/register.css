@@ -1,0 +1,84 @@
+/* Center the form on the page */
+form {
+    width: 500px;
+    margin: 0 auto;
+  }
+/*body style*/
+body{
+    background-color:#2e94b9;
+}
+.container{
+    margin-top: 10%;
+}
+/*heading styling*/
+  h1{
+    text-align: center;
+  }
+  /* Style the form inputs and labels */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  input,
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-top: 0;
+  }
+  input[type="radio"] + label,
+  input[type="checkbox"] + label {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  /* Style the form buttons */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color:#070f4e;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    
+    background-color: #9ea8c9;
+  }
+  
+  /* Style the form error messages */
+  #error-message1 {
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+.error-message{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; 
+}
+  /* Style the form success message */
+  #success-message1 {
+    color: #008000;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  #state{
+    margin-bottom: 5%;
+  }
